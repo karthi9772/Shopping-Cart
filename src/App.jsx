@@ -12,8 +12,8 @@ const App = () => {
         <Router>
           <Nav></Nav>
           <Routes>
-            <Route path="/Shoping-Cart/" element={<Shop />}></Route>
-            <Route path="/Cart" element={<Cart />}></Route>
+            <Route path="/Shoping-Cart" element={<Shop />}></Route>
+            <Route path="/cart" element={<Cart />}></Route>
           </Routes>
         </Router>
       </ShopcontextProvider>

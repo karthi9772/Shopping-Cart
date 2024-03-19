@@ -6,7 +6,7 @@ export const Nav = () => {
   return (
     <div className="Nav-bar">
       <div className="links">
-        <Link className="link" to="/Shoping-Cart/">
+        <Link className="link" to="/Shoping-Cart">
           Shop
         </Link>
         <Link className="link" to="/cart">
